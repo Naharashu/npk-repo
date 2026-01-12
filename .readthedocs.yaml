@@ -1,4 +1,6 @@
-version 1
+version: 2
 
-os:
-    linux
+build:
+  os: linux
+  tools:
+    bash: "3.1"
