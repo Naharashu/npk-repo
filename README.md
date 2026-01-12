@@ -6,7 +6,7 @@
 
 how to install packages? 
 
-```bash
+```sh
 ./npk.sh -i package # install package
 
 ./npk.sh -r package # remove package
@@ -27,18 +27,22 @@ how to install npk to my pc?
 first of all, requirements:
 - linux
 - bash >= 3.1
-- tar
+- tar and wget
 
-```shell
+```sh
 wget https://raw.githubusercontent.com/Naharashu/npk-repo/main/npk.tar.gz 
 
-mkdir -p ~/npk
+mkdir -p $HOME/npk
 
-tar -xvzf npk.tar.gz -C ~/npk
+tar -xvzf npk.tar.gz -C $HOME/npk
 
-rm -rf npk.tar.gz
+rm -f npk.tar.gz
 
+chmod +x $HOME/npk/npk.sh
 
+sudo ln -s $HOME/npk/npk.sh /usr/local/bin/npk  # on linux
+
+ln -s $HOMR/npk/npk.sh $PREFIX/bin/npk # on Termux
 ```
 
 pros:
