@@ -15,7 +15,30 @@ how to install packages?
 
 ./npk.sh -s package # sync(update package)
 
+./npk.sh -v # see version
+
+./npk.sh -u # upgrade npk
+
 ./npk.sh -cleanup # clean trash made by npk
+```
+
+how to install npk to my pc?
+
+first of all, requirements:
+- linux
+- bash >= 3.1
+- tar
+
+```shell
+wget https://raw.githubusercontent.com/Naharashu/npk-repo/main/npk.tar.gz 
+
+mkdir -p ~/npk
+
+tar -xvzf npk.tar.gz -C ~/npk
+
+rm -rf npk.tar.gz
+
+
 ```
 
 pros:
