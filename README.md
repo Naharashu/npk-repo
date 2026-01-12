@@ -40,9 +40,11 @@ rm -f npk.tar.gz
 
 chmod +x $HOME/npk/npk.sh
 
+chmod +x $HOME/npk/npk-upgrade.sh
+
 sudo ln -s $HOME/npk/npk.sh /usr/local/bin/npk  # on linux
 
-ln -s $HOMR/npk/npk.sh $PREFIX/bin/npk # on Termux
+ln -s $HOME/npk/npk.sh $PREFIX/bin/npk # on Termux
 ```
 
 pros:
