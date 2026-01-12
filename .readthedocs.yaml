@@ -1,6 +1,6 @@
 version: 2
 
 build:
-  os: linux
+  os: ubuntu-20.04
   tools:
     bash: "3.1"
