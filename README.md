@@ -7,19 +7,19 @@
 how to install packages? 
 
 ```sh
-./npk.sh -i package # install package
+npk.sh -i package # install package
 
-./npk.sh -r package # remove package
+npk.sh -r package # remove package
 
-./npk.sh -l # list of installed packages
+npk.sh -l # list of installed packages
 
-./npk.sh -s package # sync(update package)
+npk.sh -s package # sync(update package)
 
-./npk.sh -v # see version
+npk.sh -v # see version
 
-./npk.sh -u # upgrade npk
+npk.sh -u # upgrade npk
 
-./npk.sh -cleanup # clean trash made by npk
+npk.sh -cleanup # clean trash made by npk
 ```
 
 how to install npk to my pc?
